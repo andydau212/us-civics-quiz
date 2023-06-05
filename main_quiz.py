@@ -57,5 +57,5 @@ if __name__ == "__main__":
     with open("data.json", "r") as f:
         json_data = json.load(f)
     question_bank = QAs(**json_data)
-    q = Quiz()
+    q = Quiz(question_bank=question_bank)
     q.run_quiz()
