@@ -50,6 +50,8 @@ Alternatively, run the script provided:
 OPENAI_API_KEY=<token> python main_quiz.py
 ```
 
+### Known issue
+Questions that involve current knowledge (ie who's the current speaker of the house) or knowledge dependent on your location does not work well. You can mitigate this by changing the answer to these questions manually in the [data.json](data.json) file.
 
 ## Contributing
 
