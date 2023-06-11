@@ -20,8 +20,8 @@ This repo contains a couple of notebooks using LangChain and ChatGPT to simulate
 ## Features
 
 The code here has 2 parts:
-1. Data collection: In the "Parse civics question.ipynb" notebook. The code here parse the provide pdf and uses chatGPT to generate the formatted question/answer pairs in data.json
-2. Quiz: Contains both a notebook ("Civics question quiz.ipynb") and a script. It will ask the user one of the question from data.json at random, and uses ChatGPT to judge if the answer is close enough to the provided answer. 
+1. Data collection: Located in [this](Parse%20civics%20quesion.ipynb) notebook. The code here parse the provide pdf and uses chatGPT to generate the formatted question/answer pairs in data.json
+2. Quiz: Contains both a [notebook](Civics%20question%20quiz.ipynb) and a [script](main_quiz.py). It will ask the user one of the question from data.json at random (without repeating questions), and uses ChatGPT to judge if the answer is close enough to the provided answer. 
 
 
 ## Installation
